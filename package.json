@@ -1,7 +1,11 @@
 {
-  "name": "寒光冰月",
+  "name": "hgby-reco",
   "version": "1.0.0",
-  "author": "liu_xing",
+  "description": "hgby project of vuepress-theme-reco",
+  "author": {
+    "name": "liuxing",
+    "email": "liuxing997@foxmail.com"
+  },
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build ."
@@ -18,7 +22,6 @@
     "vuepress-plugin-sponsor": "^1.0.0",
     "vuepress-theme-reco": "1.6.14"
   },
-  "description": "刘兴的个人博客",
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "axios": "^1.1.2",

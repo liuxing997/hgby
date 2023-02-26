@@ -8,8 +8,8 @@ module.exports = {
       process: true,
     },
   },
-  title: "寒光冰月", // 网站名称
-  description: "刘兴的个人博客", // 网站介绍
+  title: "Evan Liu", // 网站名称
+  description: "hgby project of vuepress-theme-reco", // 网站介绍
   dest: "public",
   // base: "/reco/", // 打包时再放开
   locales: {
@@ -23,7 +23,8 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "/favicon.ico",
+        // href: "/reco/favicon.ico", // 打包时放开
+        href: "/favicon.ico", // 打包时注释
       },
     ],
     [
