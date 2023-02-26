@@ -11,6 +11,7 @@ module.exports = {
   title: "寒光冰月", // 网站名称
   description: "刘兴的个人博客", // 网站介绍
   dest: "public",
+  // base: "/reco/", // 打包时再放开
   locales: {
     // 语言配置
     "/": {
@@ -33,13 +34,13 @@ module.exports = {
       },
     ],
     // 百度联盟广告验证
-    [
-      "meta",
-      {
-        name: "baidu_union_verify",
-        content: "babfd01f3afb096d30f5315f91aa4157",
-      },
-    ],
+    // [
+    //   "meta",
+    //   {
+    //     name: "baidu_union_verify",
+    //     content: "babfd01f3afb096d30f5315f91aa4157",
+    //   },
+    // ],
     // 添加百度统计代码
     [
       "script",
@@ -58,19 +59,19 @@ module.exports = {
     [
       "script",
       {
-        src: "//i.6v6.work/v/?uid=388877",
+        src: "http://i.6v6.work/v/?uid=388877",
         async: "async",
       },
     ],
     // 添加百度联盟广告的js
-    [
-      "script",
-      {
-        defer: "defer",
-        async: "async",
-        src: "//cpro.baidustatic.com/cpro/ui/cm.js",
-      },
-    ],
+    // [
+    //   "script",
+    //   {
+    //     defer: "defer",
+    //     async: "async",
+    //     src: "//cpro.baidustatic.com/cpro/ui/cm.js",
+    //   },
+    // ],
   ],
   theme: "reco", // 主题
   themeConfig: themeConfig, // 主题配置

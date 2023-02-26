@@ -16,4 +16,4 @@ publish: false
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------: |
 | <img src="/pay/aliPay.png" width="50%" height="50%" alt="alipay"> | <img src="/pay/weChat.png" width="50%" height="50%" alt="wechat"> | <img src="/pay/qqPay.png" width="50%" height="50%" alt="QQ"> | <a href="https://paypal.me/liuxing98">PayPal</a> |
 
-<WapFeedBaiduAd></WapFeedBaiduAd>
+<!-- <WapFeedBaiduAd></WapFeedBaiduAd> -->

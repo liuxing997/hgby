@@ -65,7 +65,8 @@ const themeConfig = {
     ],
   },
   friendLink: friendLink, // 友情链接
-  logo: "/logo.png", // 导航栏左侧logo图标
+  logo: "/logo.svg", // 导航栏左侧logo图标
+  // logo: "/logo.png", // 导航栏左侧logo图标
   huawei: true, // 华为文案
   search: true, // 搜索框
   searchMaxSuggestions: 10, // 搜索结果数量
